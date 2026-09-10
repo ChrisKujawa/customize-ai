@@ -59,7 +59,7 @@ Keep the retro short:
 - Keep private notes private. Public examples should show the template, not the real session.
 - Turn repeated lessons into durable instructions only when they are general and actionable.
 
-## Public-safety notes
+## Sharing note
 
 Retros can contain sensitive context. Remove private repo names, customer details, internal links,
 personal notes, auth failures, incident details, and local paths before sharing.

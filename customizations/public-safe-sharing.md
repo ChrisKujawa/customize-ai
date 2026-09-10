@@ -2,7 +2,9 @@
 
 ## Need
 
-Assistant configs often contain real context. Public examples need a redaction pass.
+Assistant configs often start as private dotfiles. Public examples need a redaction pass because the
+useful pattern is usually mixed with private paths, repositories, incidents, customers, or personal
+notes.
 
 ## What this customization does
 
@@ -44,7 +46,7 @@ example needs structure but the real value should not be public.
 Make the redaction list match your risk profile. If your work touches regulated or customer data, be
 stricter.
 
-## Public-safety notes
+## Redaction checklist
 
 Do not publish:
 

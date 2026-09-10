@@ -58,7 +58,7 @@ Useful checks:
 - Keep the checklist focused on reviewer experience.
 - Do not block a doc-only or refactor PR on unnecessary tests, but make the reasoning explicit.
 
-## Public-safety notes
+## Sharing note
 
 Do not publish real PR links, customer context, internal issue trackers, private CI URLs, or reviewer
 names unless they are already meant to be public.

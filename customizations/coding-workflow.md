@@ -44,8 +44,3 @@ If validation fails, report the real failure instead of describing the change as
 
 Put exact build commands in repo-specific instructions. Keep global rules about judgment and
 workflow.
-
-## Public-safety notes
-
-Do not publish private build commands, internal package names, private repository paths, customer
-fixtures, or logs that contain sensitive values. Use generic examples instead.

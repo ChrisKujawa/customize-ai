@@ -35,7 +35,3 @@ Keep it to tone, detail level, final summary shape, and how to describe uncertai
 
 Write it in your own voice. If you prefer detailed reasoning, say so. If you prefer terse handoffs,
 say that instead.
-
-## Public-safety notes
-
-Remove private examples, incident details, team names, and sensitive personal context.

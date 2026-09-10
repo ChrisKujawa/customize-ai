@@ -33,6 +33,11 @@ Everything here should be safe to publish. Do not commit secrets, tokens, creden
 company data, customer names, internal URLs, local machine paths, sensitive personal information, or
 unreviewed local config.
 
+Why this shows up at all: assistant customizations often start as private dotfiles. They can include
+real paths, teams, repositories, incidents, customers, and tool commands. This repo keeps the useful
+idea and strips the private context. Most pages rely on this shared rule; individual pages only call
+out safety concerns when that customization has a specific risk.
+
 ## Repository structure
 
 ```text

@@ -54,7 +54,7 @@ Good PR descriptions usually need:
 - Use a temporary Markdown file when updating PR bodies from the CLI, especially if the text contains
   backticks.
 
-## Public-safety notes
+## Sharing note
 
 Public examples should not include private issue links, unreleased plans, customer names, internal
 repository names, private branch names, or pasted CI output with sensitive details.

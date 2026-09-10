@@ -54,7 +54,3 @@ Use before publishing assistant configuration examples.
 ## Tips for adapting
 
 Create a workflow after you have repeated the same prompt several times. Split it when it gets long.
-
-## Public-safety notes
-
-Remove internal tool names, incident procedures, escalation paths, and private repository details.

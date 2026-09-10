@@ -95,7 +95,7 @@ Example hook file:
 - Use a temp file keyed by session id so parallel sessions do not overwrite each other.
 - Replace the example hook paths with real absolute paths on your machine.
 
-## Public-safety notes
+## Sharing note
 
 Do not publish your real hook file without checking paths and commands first. Replace private paths,
 internal script names, machine-specific details, and anything that references private tools.
