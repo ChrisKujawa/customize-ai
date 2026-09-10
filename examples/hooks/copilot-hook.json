@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "hooks": {
+    "userPromptSubmitted": [
+      {
+        "type": "command",
+        "bash": "$HOME/.local/share/ai-hooks/record-turn-start.sh"
+      }
+    ],
+    "agentStop": [
+      {
+        "type": "command",
+        "bash": "$HOME/.local/share/ai-hooks/beep-if-long.sh"
+      }
+    ]
+  }
+}

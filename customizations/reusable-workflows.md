@@ -2,19 +2,14 @@
 
 ## Need
 
-Some prompts become repeatable workflows: preparing a pull request, triaging CI, reviewing a design,
-or turning notes into a clean issue. Capturing those workflows saves time and makes results more
+Some prompts become routines. Capturing them as small playbooks saves time and keeps results
 consistent.
 
 ## What this customization does
 
-It turns repeated assistant interactions into focused playbooks. Each workflow should describe when
-to use it, what steps to follow, and what output should look like.
+It turns repeated assistant interactions into named workflows with clear steps and expected output.
 
 ## Claude
-
-For Claude, I like reusable workflows as skills or prompt files. They are helpful when a task needs
-several steps and benefits from a consistent checklist.
 
 Example:
 
@@ -32,9 +27,6 @@ Use this before asking for human review.
 
 ## GitHub Copilot
 
-For Copilot, reusable workflows are useful for tasks that touch GitHub, the terminal, and repository
-state, such as PR cleanup, issue drafting, or CI triage.
-
 Example:
 
 ```md
@@ -44,14 +36,7 @@ template. Create focused commits with Conventional Commit messages.
 
 ## Structure
 
-Good reusable workflows stay short:
-
-- Name.
-- When to use it.
-- Inputs needed.
-- Steps.
-- Expected output.
-- Safety checks.
+Use: name, when to use it, inputs, steps, expected output, safety checks.
 
 ## Practical example
 
@@ -68,10 +53,8 @@ Use before publishing assistant configuration examples.
 
 ## Tips for adapting
 
-Create a workflow only after you have repeated the same prompt several times. If the workflow grows
-too long, split it into smaller ones with clear names.
+Create a workflow after you have repeated the same prompt several times. Split it when it gets long.
 
 ## Public-safety notes
 
-Workflow examples can accidentally reveal how a private team operates. Remove internal tool names,
-incident procedures, sensitive escalation paths, and private repository details before publishing.
+Remove internal tool names, incident procedures, escalation paths, and private repository details.

@@ -2,19 +2,14 @@
 
 ## Need
 
-AI assistants are easier to work with when their default communication style matches how I want to
-collaborate: concise, practical, and focused on the outcome.
+I want assistants to sound like a concise teammate: lead with the result, then include the evidence
+that matters.
 
 ## What this customization does
 
-It tells the assistant how to respond during normal engineering work: lead with the result, include
-the evidence that matters, avoid filler, and keep long explanations for cases where they add value.
+It reduces filler and makes final answers easier to scan.
 
 ## Claude
-
-Claude benefits from clear preferences about when to be terse and when to reason in more depth. I
-like Claude to be direct by default, then expand when a design decision, bug investigation, or tradeoff
-needs more explanation.
 
 Example:
 
@@ -25,9 +20,6 @@ Use concise, practical language. Avoid filler and avoid restating the request.
 
 ## GitHub Copilot
 
-Copilot often works in a terminal, editor, issue, or pull request context. I want progress updates to
-be brief and final summaries to focus on what changed, why, and what was checked.
-
 Example:
 
 ```md
@@ -37,19 +29,13 @@ changed, and what was validated.
 
 ## Structure
 
-Keep this customization small:
-
-- Default tone.
-- How much detail to include.
-- How to summarize code changes.
-- When to explain uncertainty.
+Keep it to tone, detail level, final summary shape, and how to describe uncertainty.
 
 ## Tips for adapting
 
-Write this in your own voice. If you like detailed reasoning, say so. If you prefer terse handoffs,
-make that explicit. The important part is consistency across sessions.
+Write it in your own voice. If you prefer detailed reasoning, say so. If you prefer terse handoffs,
+say that instead.
 
 ## Public-safety notes
 
-Communication preferences are usually safe to share, but remove private examples, real incident
-details, private team names, and sensitive personal context.
+Remove private examples, incident details, team names, and sensitive personal context.

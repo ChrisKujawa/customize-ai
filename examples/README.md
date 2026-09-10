@@ -1,9 +1,12 @@
 # Examples
 
-This directory is intentionally small. The customization files contain the main examples, and those
-examples are generic enough to copy safely.
+Small, public-safe examples used by the customization pages.
 
-When adding more examples, keep them:
+Current examples:
+
+- [`hooks/`](hooks/) has a generic "beep after long agent turn" setup for Claude and Copilot.
+
+Keep examples:
 
 - Short.
 - Tool-aware when needed.
