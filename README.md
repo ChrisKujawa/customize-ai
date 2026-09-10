@@ -16,7 +16,10 @@ Each customization gets its own file, with separate sections for Claude and Copi
 - [Beep when a long agent turn finishes](customizations/agent-done-beep.md)
 - [Communication style](customizations/communication-style.md)
 - [Coding workflow](customizations/coding-workflow.md)
+- [PR description trim](customizations/pr-description-trim.md)
+- [PR ready for human review](customizations/pr-ready-for-human-review.md)
 - [Reusable workflows](customizations/reusable-workflows.md)
+- [Self-reflect after a session](customizations/self-reflect.md)
 - [Public-safe sharing](customizations/public-safe-sharing.md)
 
 ## How to browse
@@ -39,8 +42,11 @@ unreviewed local config.
 │   ├── agent-done-beep.md
 │   ├── coding-workflow.md
 │   ├── communication-style.md
+│   ├── pr-description-trim.md
+│   ├── pr-ready-for-human-review.md
 │   ├── public-safe-sharing.md
-│   └── reusable-workflows.md
+│   ├── reusable-workflows.md
+│   └── self-reflect.md
 ├── examples/
 │   ├── README.md
 │   └── hooks/
