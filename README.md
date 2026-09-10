@@ -16,6 +16,7 @@ Each customization gets its own file, with separate sections for Claude and Copi
 - [Beep when a long agent turn finishes](customizations/agent-done-beep.md)
 - [Communication style](customizations/communication-style.md)
 - [Coding workflow](customizations/coding-workflow.md)
+- [Copilot review loop](customizations/copilot-review-loop.md)
 - [PR description trim](customizations/pr-description-trim.md)
 - [PR ready for human review](customizations/pr-ready-for-human-review.md)
 - [Reusable workflows](customizations/reusable-workflows.md)
@@ -42,11 +43,13 @@ out safety concerns when that customization has a specific risk.
 
 ```text
 .
+├── AGENTS.md
 ├── README.md
 ├── customizations/
 │   ├── agent-done-beep.md
 │   ├── coding-workflow.md
 │   ├── communication-style.md
+│   ├── copilot-review-loop.md
 │   ├── pr-description-trim.md
 │   ├── pr-ready-for-human-review.md
 │   ├── public-safe-sharing.md
@@ -59,6 +62,9 @@ out safety concerns when that customization has a specific risk.
 │       ├── claude-settings-snippet.json
 │       ├── copilot-hook.json
 │       └── record-turn-start.sh
+├── skills/
+│   └── add-customization/
+│       └── SKILL.md
 └── LICENSE
 ```
 
